@@ -1,0 +1,129 @@
+.chat{
+    display: flex;
+    background-color:#193c54;
+    flex:.75;
+    color: aliceblue;
+    flex-direction: column;
+}
+.chat-head{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 50px 15px 50px;
+}
+.chat-head-left{
+    display: flex;
+}
+.chat-head-right{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.chat-head-left>h5{
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    letter-spacing: .8px;
+    font-weight: 600;
+}
+.chat-body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.chat-body> .message-head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.message-head> .MuiAvatar-root{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+.message-head > h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(212, 207, 207);
+    letter-spacing: 1px;
+}
+.chat-footer{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.chat-footer > form {
+    flex: 1;
+    width: 80%;
+}
+.chat-footer > form >input {
+    background-color: rgb(75,75,75);
+    padding: 10px;
+    width: 96%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 500;
+}
+.chat-footer >form >button{
+    display: none;
+}
+.chat-footer-icon{
+    margin-right: 16%;
+    display: flex;
+    align-items: center;
+}
+.chat-footer > .MuiSvgIcon-root{
+   color: yellow;
+   margin-left: 10px;
+   
+}
+.chat-footer > .MuiSvgIcon-root:hover{
+    color:rgb(184, 184, 0);
+    cursor: pointer;
+    
+}
+.chat-footer-icon > .MuiSvgIcon-root{
+    color: aqua;
+    
+}
+.chat-footer-icon > .MuiSvgIcon-root:hover{
+    cursor: pointer;
+    color: rgb(0, 153, 153);
+}
+.message{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 6px;
+}
+.message-content{
+    background-color: #3b4ca0;
+    padding: 7px;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    width: fit-content;
+}
+.message-content>small{
+    position:absolute;
+    right: 0;
+    bottom: -17px;
+}
+.message-content>span{
+    color: aliceblue;
+    margin-bottom: 2px;
+    letter-spacing: .8px;
+}
+.message-content>p{
+    color: grey;
+    font-size: 14px;
+    letter-spacing: .8px;
+}

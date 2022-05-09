@@ -1,0 +1,127 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    padding: 10px;
+    background-color: #2a3944;
+    border-radius: 2px;
+}
+.side_head{
+    display: flex;
+    align-items: center;
+}
+.side_search{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    background-color: #090c0e;
+    padding: 5px;
+    width: 100%;
+    border-radius: 37px;
+}
+.side_search>input{
+   background-color: transparent;
+   border: none;
+   outline: none;
+   color: #f8f8f8;
+   font-weight: 600;
+   letter-spacing: .8px;
+   font-size: 13px;
+}
+.side_chat{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 1.5rem;
+}
+.side-note{
+    display: flex;
+    margin-bottom: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+.side-note:hover{
+    background-color: rgba(151,151,151,0.6);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.side-note-icon{
+    margin-right: 14px;
+    align-items:center;
+}
+.side-note >p {
+    color: #f8f8f8;
+    font-size: 14px;
+    letter-spacing: .8px;
+    align-items: center;
+}
+.sidebar-chat{
+    display: flex;
+    align-items: center;
+    color: #f8f8f8;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding:10px;
+}
+.sidebar-chat:hover{
+    background-color: rgba(151,151,151,0.6);
+    border-radius: 5px;
+}
+.sideChat-info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 10px;
+    width: 100%;
+}
+.sideChat-info > small{
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+}
+.sideChat-info>h3{
+    font-size: 16px;
+    letter-spacing: .8px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.sideChat-info>p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    max-height: 1.5rem;
+    line-height: 1.5rem;
+}
+.modal-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-input{
+    margin: 14px;
+}
+.modal-h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #2a3944;
+}
+.add-icon{
+    margin-left: 10rem;
+    margin-top: 2rem;
+    transition: .3s ease-in;
+}
+
+.close-btn{
+    background-color: crimson;
+    margin-left: auto;
+    color: #f8f8f8;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
